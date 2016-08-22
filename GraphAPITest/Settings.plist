@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>authority</key>
+	<string>https://login.windows.net/common</string>
+	<key>clientId</key>
+	<string>859fb4f1-644d-452c-bae7-f75b15e0b1e7</string>
+	<key>resourceString</key>
+	<string>https://graph.windows.net/</string>
+	<key>redirectUri</key>
+	<string>GraphApiTest://me.wilko.graphapitest</string>
+	<key>graphAPI</key>
+	<string>https://graph.windows.net/</string>
+	<key>api-version</key>
+	<string>1.6</string>
+	<key>tenant</key>
+	<string>visithere</string>
+</dict>
+</plist>
