@@ -1,4 +1,4 @@
-# GraphiAPITest
+# GraphAPITest
 
 This project demonstrates the use of the Microsoft Azure Graph API.
 
