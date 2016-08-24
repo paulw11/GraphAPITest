@@ -3,18 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>authority</key>
-	<string>https://login.windows.net/common</string>
+	<string>https://login.microsoftonline.com/5895b31f-5b3a-4794-98d9-9722ea06da3a/oauth2/authorize</string>
+	<key>tokenurl</key>
+	<string>https://login.microsoftonline.com/5895b31f-5b3a-4794-98d9-9722ea06da3a/oauth2/token</string>
 	<key>clientId</key>
-	<string>859fb4f1-644d-452c-bae7-f75b15e0b1e7</string>
-	<key>resourceString</key>
-	<string>https://graph.windows.net/</string>
+	<string>efbd558a-545e-4e26-ba53-f3d41998c78e</string>
 	<key>redirectUri</key>
-	<string>GraphApiTest://me.wilko.graphapitest</string>
+	<string>urn:ietf:wg:oauth:2.0:oob</string>
 	<key>graphAPI</key>
 	<string>https://graph.windows.net/</string>
 	<key>api-version</key>
 	<string>1.6</string>
+	<key>secret</key>
+	<string>lYlhDRPwJ2Y0QjOq0MIQWAWDR4QSM9TVEHMU2im0pBY=</string>
 	<key>tenant</key>
-	<string>visithere</string>
+	<string>5895b31f-5b3a-4794-98d9-9722ea06da3a</string>
 </dict>
 </plist>

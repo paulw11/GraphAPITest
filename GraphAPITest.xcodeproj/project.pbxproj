@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		343DA3B7F5815A008402FC05 /* Pods_GraphAPITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AA0563DB73561344D2C58D /* Pods_GraphAPITest.framework */; };
+		BB5781071D6D3BFD008CDD98 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5781061D6D3BFD008CDD98 /* User.swift */; };
 		BBA7523B1D6AE12300AF8AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA7523A1D6AE12300AF8AB9 /* AppDelegate.swift */; };
 		BBA7523D1D6AE12300AF8AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA7523C1D6AE12300AF8AB9 /* ViewController.swift */; };
 		BBA752401D6AE12300AF8AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA7523E1D6AE12300AF8AB9 /* Main.storyboard */; };
 		BBA752421D6AE12300AF8AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA752411D6AE12300AF8AB9 /* Assets.xcassets */; };
 		BBA752451D6AE12300AF8AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA752431D6AE12300AF8AB9 /* LaunchScreen.storyboard */; };
-		BBA7524D1D6AE1CE00AF8AB9 /* GraphAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA7524C1D6AE1CE00AF8AB9 /* GraphAPICaller.swift */; };
 		BBA752531D6AE31100AF8AB9 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBA752521D6AE31100AF8AB9 /* Settings.plist */; };
 		BBA752551D6AE34A00AF8AB9 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA752541D6AE34A00AF8AB9 /* AppData.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		07AA0563DB73561344D2C58D /* Pods_GraphAPITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphAPITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54C4284D6B410988E3B45B0 /* Pods-GraphAPITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphAPITest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphAPITest/Pods-GraphAPITest.release.xcconfig"; sourceTree = "<group>"; };
+		BB5781061D6D3BFD008CDD98 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BBA752371D6AE12300AF8AB9 /* GraphAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA7523A1D6AE12300AF8AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBA7523C1D6AE12300AF8AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		BBA752411D6AE12300AF8AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBA752441D6AE12300AF8AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBA752461D6AE12300AF8AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBA7524C1D6AE1CE00AF8AB9 /* GraphAPICaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphAPICaller.swift; sourceTree = "<group>"; };
 		BBA7524E1D6AE2BD00AF8AB9 /* GraphAPITest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GraphAPITest-Bridging-Header.h"; sourceTree = "<group>"; };
 		BBA752521D6AE31100AF8AB9 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		BBA752541D6AE34A00AF8AB9 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
@@ -87,11 +87,11 @@
 			children = (
 				BBA7523A1D6AE12300AF8AB9 /* AppDelegate.swift */,
 				BBA7523C1D6AE12300AF8AB9 /* ViewController.swift */,
+				BB5781061D6D3BFD008CDD98 /* User.swift */,
 				BBA7523E1D6AE12300AF8AB9 /* Main.storyboard */,
 				BBA752411D6AE12300AF8AB9 /* Assets.xcassets */,
 				BBA752431D6AE12300AF8AB9 /* LaunchScreen.storyboard */,
 				BBA752461D6AE12300AF8AB9 /* Info.plist */,
-				BBA7524C1D6AE1CE00AF8AB9 /* GraphAPICaller.swift */,
 				BBA752541D6AE34A00AF8AB9 /* AppData.swift */,
 				BBA752521D6AE31100AF8AB9 /* Settings.plist */,
 				BBA7524E1D6AE2BD00AF8AB9 /* GraphAPITest-Bridging-Header.h */,
@@ -224,7 +224,7 @@
 			files = (
 				BBA7523D1D6AE12300AF8AB9 /* ViewController.swift in Sources */,
 				BBA7523B1D6AE12300AF8AB9 /* AppDelegate.swift in Sources */,
-				BBA7524D1D6AE1CE00AF8AB9 /* GraphAPICaller.swift in Sources */,
+				BB5781071D6D3BFD008CDD98 /* User.swift in Sources */,
 				BBA752551D6AE34A00AF8AB9 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
